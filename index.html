@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Guessing Game</title>
+
+    <link rel="stylesheet" type='text/css' href='style.css'>
+    <link rel='stylesheet' type='text/css' href='bootstrap-3.3.7-dist/css/bootstrap.css'>
+
+  </head>
+
+  <body>
+    
+    <div id='app' class='container'>
+
+      <div id='headers'>
+          <h2 id='title'>Let's play a game</h2>
+          <h5 id='subtitle'>Guess a number between 1-100!</h5>
+      </div>
+
+      <div id='main'>
+
+        <div id='parent-input'>
+          <input id='player-input' class='center' type='text' placeholder='?' maxlength='3' box-sizing='0'></input>
+          <button id='submit' type="button">Go!</button>
+        </div>
+
+        <div id='guesses'>
+          <ul class='list'>
+              <li id='guess1' class='guess'>-</li>
+              <li id='guess2' class='guess'>-</li>
+              <li id='guess3' class='guess'>-</li>
+              <li id='guess4' class='guess'>-</li>
+              <li id='guess5' class='guess'>-</li>
+          </ul>
+        </div>
+
+        <div id="menu-btns">
+          <button id='reset' type="button" class="btn btn-warning">Reset</button>
+          <button id='hint' type="button" class="btn btn-info">Hint</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div id='win'>
+      <button id='play-again'>Play again</button>
+      <img id='trophy' src='trophy-1.png'>
+    </div>
+
+    <div id='footer'>
+
+      <div class='container'>
+
+        <div class='row'>
+
+          <div class='col-sm-4'>
+            <img class='img-responsive' src='fullstack_logo.png'>
+          </div>
+
+          <div class='col-sm-4'>
+            <img class='img-responsive' src='charlie_robinson_logo.png'>
+          </div>
+
+          <div class='col-sm-4'>
+            <img class='img-responsive' src='grace_hopper_logo.png'>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="jquery-3.3.1.js"></script>
+    <script src="my_jquery_functions.js"></script>
+    <script src="GuessingGame.js"></script>
+  
+
+  </body>
+</html>

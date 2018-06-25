@@ -1,0 +1,66 @@
+    
+    body {
+        background-image: url('stars.gif');
+        background-size: 200px;
+    }
+    
+    .center {
+        text-align: center;
+    }
+    .logo {
+       
+    }
+    .guess {
+        text-align: center;
+        display: inline-block;
+        border: solid 2px black;
+        border-radius: 4px;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        background-color: white;
+        
+        
+    }
+    
+    #player-input {
+        border-radius: 100px;
+        height: 100px;
+        width: 100px;
+        font-size: 50px;
+        position: relative;
+        top: -10px;
+        left: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #submit {
+        border-radius: 40px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        background-color: rgb(8, 218, 8);
+        font-weight: 900;
+        position: sticky;
+        top: 20px;
+        left: 20px;
+        
+    }
+    #footer {
+        height: 15%;
+        width: 100%;
+        border-top: solid 2px black;
+        background-color: white;
+        position: fixed;
+        bottom: 0;
+    }
+    #app {
+        text-align: center;
+        padding-top: 5%;
+    }
+    #win {
+        position: fixed;
+        left: 20%;
+        top: 25%;
+        display: none;
+    }
